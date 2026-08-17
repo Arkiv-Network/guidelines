@@ -69,7 +69,7 @@ Once code lands in `develop`, it should be deployed to a **staging/testing** env
 This step is reserved for some projects because it is typically **time- and resource-consuming**. It usually runs against the staging environment before the final decision to promote to production.
 
 - **Examples**
-  - Load/stress tests for projects exposed to large traffic (e.g. op-geth)
+  - Load/stress tests for projects exposed to large traffic (e.g. the arkiv-node execution client)
   - Acceptance testing performed by product owner/stakeholders for user-facing products where quality is highly visible (e.g. Arkiv main page)
 - **Why it matters**
   - Reduces release risk by validating performance and end-to-end expectations before production
